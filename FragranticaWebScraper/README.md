@@ -19,6 +19,6 @@ Based on the core files in this module, the scraping process is split into disti
 ### 1. Robust State Management & Resiliency
 Scraping over 5,000 deep web pages takes time. By utilizing a file-based queue system, the scraper is pretty stateless and resilient.
 
-### 3. Dynamic Content & Anti-Bot Bypassing
+### 2. Dynamic Content & Anti-Bot Bypassing
 *   **Asynchronous Content:** Handled dynamic tabs and "Show More" buttons using Selenium's Explicit Waits.
 *   **Human Mimicry:** Integrated randomized request delays, custom User-Agent rotation, and window sizing to minimize triggering automated Cloudflare/Incapsula challenges.
